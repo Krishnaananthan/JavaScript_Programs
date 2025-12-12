@@ -1,4 +1,5 @@
-function keys(obj){
-    return Object.keys(obj);
+let user = {name: "Krishna",age: 21,city: "Mumbai"};
+
+for (let key in user) {
+  console.log(key);
 }
-console.log(keys({name:"Krishna",age:22,city:"Chennai"}))
